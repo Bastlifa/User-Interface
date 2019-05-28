@@ -64,3 +64,48 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.topStuff
+{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: lightgrey;
+	padding: 40px;
+
+}
+
+body
+{
+	width: 1400px;
+}
+
+.massiveH1
+{
+	font-size: 450%;
+	text-align: center;
+	
+}
+
+.attnGrabber
+{
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 200px;
+}
+
+/* .attnAndButton
+{display: block;} */
+
+
+.getStartedBtn
+{
+	background-color: white;
+	font-size: 16px;
+	padding: 8px 30px;
+	border: 1px solid black;
+}
