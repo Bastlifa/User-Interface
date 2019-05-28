@@ -75,13 +75,28 @@ nav a
 {
 	text-decoration: none;
 	color: lightgrey;
-	padding: 40px;
+	margin: 25px;
+}
 
+nav img
+{
+	margin-left: 50px;
+}
+
+nav a:first-child
+{
+	margin-left: 0px;
+}
+
+nav a:hover
+{
+	color: black;
 }
 
 body
 {
-	width: 1400px;
+	width: 850px;
+	margin-left: 50px;
 }
 
 .massiveH1
@@ -95,12 +110,27 @@ body
 {
 	display: inline-block;
 	margin-left: 100px;
-	margin-top: 200px;
+	margin-top: 100px;
+	
 }
 
-/* .attnAndButton
-{display: block;} */
+.attnGrabber.innovOD
+{
+	padding-bottom: 50px;
+}
 
+.attnGrabber div
+{
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	padding-bottom: 400px;
+}
+
+.attnGrabber div img
+{
+	margin-left: 200px;
+}
 
 .getStartedBtn
 {
@@ -108,4 +138,46 @@ body
 	font-size: 16px;
 	padding: 8px 30px;
 	border: 1px solid black;
+	margin-left: 30px;
+}
+
+.sideBySideTextSections
+{
+	display: inline-block;
+	width: 400px;
+	font-size: 14px;
+}
+
+.sideBySideTextSections:last-child
+{
+	margin-left: 10px;
+}
+
+.featuresAbout
+{
+	margin-bottom: 10px;
+}
+
+.srvProVis
+{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.sbsTS2
+{
+	display: inline-block;
+	width: 260px;
+	font-size: 14px;
+	margin-left: 30px;
+}
+
+.sbsTS2:first-child
+{
+	margin-left: 0px;
+}
+
+.copyrightInfo
+{
+	margin-top: 30px;
+	text-align: center;
 }
