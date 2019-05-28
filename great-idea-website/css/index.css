@@ -73,6 +73,7 @@ header
 	background-color: darkgray;
 	z-index: 1;
 	position: fixed;
+
 }
 
 
@@ -81,7 +82,6 @@ nav a
 	text-decoration: none;
 	color: lightgrey;
 	margin: 25px;
-	padding-bottom: 10px;
 }
 
 nav img
@@ -109,7 +109,11 @@ body
 {
 	font-size: 450%;
 	text-align: center;
-	
+}
+
+.h1On
+{
+	margin-left: 60px;
 }
 
 .attnGrabber
@@ -127,8 +131,8 @@ body
 
 .attnGrabber div
 {
-	width: 180px;
-	height: 180px;
+	width: 160px;
+	height: 160px;
 	display: inline-block;
 	padding-bottom: 400px;
 }
@@ -167,7 +171,7 @@ body
 
 .srvProVis
 {
-	margin-top:20px;
+	margin-top:50px;
 	margin-bottom: 20px;
 }
 .sbsTS2
