@@ -65,17 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.topStuff
+header
 {
 	display: inline-block;
-	margin-top: 20px;
+	margin:20px 0px;
+	height: 40px;
+	background-color: darkgray;
+	z-index: 1;
+	position: fixed;
 }
+
 
 nav a
 {
 	text-decoration: none;
 	color: lightgrey;
 	margin: 25px;
+	padding-bottom: 10px;
 }
 
 nav img
@@ -145,17 +151,18 @@ body
 {
 	display: inline-block;
 	width: 400px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .sideBySideTextSections:last-child
 {
-	margin-left: 10px;
+	margin-left: 25px;
 }
 
 .featuresAbout
 {
-	margin-bottom: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .srvProVis
@@ -167,7 +174,7 @@ body
 {
 	display: inline-block;
 	width: 260px;
-	font-size: 14px;
+	font-size: 16px;
 	margin-left: 30px;
 }
 
@@ -176,8 +183,18 @@ body
 	margin-left: 0px;
 }
 
+address:first-child
+{
+	margin-top:20px;
+}
+
 .copyrightInfo
 {
 	margin-top: 30px;
 	text-align: center;
+}
+
+.middle-img
+{
+	width: 850px;
 }
